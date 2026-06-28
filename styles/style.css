@@ -121,6 +121,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .article-kicker {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
   .oscar-best-picture .article-title {
     font-size: 3rem;
     line-height: 2.625rem;
