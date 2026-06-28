@@ -10,6 +10,53 @@
   background: var(--brand-primary);
 }
 
+.oscar-best-picture .featured-image {
+  background-image: url(https://shoneal.github.io/rollingstone-oscar-best-picture/images/oscars-background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.oscar-best-picture .figure {
+  position: relative;
+  height: 96%;
+}
+
+.oscar-best-picture .figure div:nth-child(1) {
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 40%;
+}
+
+.oscar-best-picture .figure div:nth-child(2) {
+  bottom: 0;
+  left: 12.5%;
+  z-index: 3;
+  width: 35%;
+}
+
+.oscar-best-picture .figure div:nth-child(3) {
+  bottom: 0;
+  z-index: 1;
+  width: 47.5%;
+  margin-inline: auto;
+  inset-inline: 0;
+}
+
+.oscar-best-picture .figure div:nth-child(4) {
+  right: 12.5%;
+  bottom: 0;
+  z-index: 3;
+  width: 35%;
+}
+
+.oscar-best-picture .figure div:nth-child(5) {
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 40%;
+}
+
 .main-paragraph {
   max-width: 662px;
   margin: 1.75rem auto;
@@ -47,7 +94,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .slide-header:hover  {
+  .slide-header:hover {
     color: white;
     background: black;
   }
