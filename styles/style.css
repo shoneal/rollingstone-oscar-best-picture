@@ -21,6 +21,10 @@
   height: 96%;
 }
 
+.oscar-best-picture .figure div{
+  position: absolute;
+}
+
 .oscar-best-picture .figure div:nth-child(1) {
   bottom: 0;
   left: 0;
