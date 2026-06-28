@@ -47,12 +47,12 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .slide-link:hover .slide-header {
+  .slide-header:hover  {
     color: white;
     background: black;
   }
 
-  .slide-link:hover .slide-number {
+  .slide-header:hover .slide-number {
     border-right: 0.25rem solid #575757;
     -webkit-text-stroke: 3px white;
   }
