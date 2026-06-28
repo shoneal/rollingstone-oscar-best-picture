@@ -10,6 +10,17 @@
   background: var(--brand-primary);
 }
 
+.oscar-best-picture .article-title {
+  padding: 0 0 0.75rem;
+  font-size: 3.5rem;
+  line-height: 3.375rem;
+}
+
+.oscar-best-picture .article-title {
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .oscar-best-picture .featured-image {
   background-image: url(https://shoneal.github.io/rollingstone-oscar-best-picture/images/oscars-background.jpg);
   background-repeat: no-repeat;
@@ -21,7 +32,7 @@
   height: 96%;
 }
 
-.oscar-best-picture .figure div{
+.oscar-best-picture .figure div {
   position: absolute;
 }
 
@@ -110,6 +121,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .oscar-best-picture .article-title {
+    font-size: 3rem;
+    line-height: 2.625rem;
+  }
+
   .oscar-best-picture .slide-title {
     font-size: 30px;
     line-height: 32px;
