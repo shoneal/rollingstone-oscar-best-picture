@@ -72,6 +72,16 @@
   width: 40%;
 }
 
+.oscar-best-picture .author {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+.oscar-best-picture time {
+  margin-top: 0;
+}
+
 .main-paragraph {
   max-width: 662px;
   margin: 1.75rem auto;
