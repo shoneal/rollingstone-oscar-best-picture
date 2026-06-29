@@ -54,12 +54,11 @@ const renderSlides = (object) => {
   for (const [key, data] of sorted) {
     const clone = bodyElements.slideTemplate.content.cloneNode(true);
 
-    const [slide, link, place, title, year, img, description] = [
+    const [slide, link, place, title, img, description] = [
       clone.querySelector(".slide"),
       clone.querySelector(".slide-link"),
       clone.querySelector(".slide-number"),
       clone.querySelector(".slide-title"),
-      clone.querySelector(".slide-subtitle"),
       clone.querySelector(".slide-figure"),
       clone.querySelector(".slide-description"),
     ];
@@ -83,8 +82,7 @@ const renderSlides = (object) => {
     showImage(img);
 
     place.textContent = data.place;
-    title.textContent = `‘${key}’`;
-    year.textContent = data.year;
+    title.textContent = `‘${key}’ (${data.year})`;
 
     const paragraph = document.createElement("p");
     paragraph.className = "paragraph";
