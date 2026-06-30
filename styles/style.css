@@ -30,6 +30,21 @@
 .oscar-best-picture .figure {
   position: relative;
   height: 96%;
+  overflow: hidden;
+}
+
+.oscar-best-picture .figure::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 33.333%;
+    height: inherit;
+    background-image: url(https://shoneal.github.io/rollingstone-oscar-best-picture/images/oscar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 45%;
+    z-index: 4;
+    left: 30%;
 }
 
 .oscar-best-picture .figure div {
@@ -75,7 +90,7 @@
 
 .oscar-best-picture .figure div:nth-child(4) {
   right: 20%;
-  z-index: 3;
+  z-index: 5;
 }
 
 .oscar-best-picture .figure div:nth-child(4) img {
