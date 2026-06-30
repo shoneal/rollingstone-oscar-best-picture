@@ -34,42 +34,61 @@
 
 .oscar-best-picture .figure div {
   position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: end;
+  width: auto;
+  height: 100%;
+}
+
+.oscar-best-picture .figure div img {
+  object-fit: contain;
 }
 
 .oscar-best-picture .figure div:nth-child(1) {
-  bottom: 0;
   left: 0;
   z-index: 2;
-  width: 42.5%;
+}
+
+.oscar-best-picture .figure div:nth-child(1) img {
+  height: 75%;
 }
 
 .oscar-best-picture .figure div:nth-child(2) {
-  bottom: 0;
-  left: 12.5%;
+  left: 20%;
   z-index: 3;
-  width: 35%;
+}
+
+.oscar-best-picture .figure div:nth-child(2) img {
+  height: 55%;
 }
 
 .oscar-best-picture .figure div:nth-child(3) {
-  bottom: 0;
   z-index: 1;
-  width: 47.5%;
   margin-inline: auto;
   inset-inline: 0;
 }
 
+.oscar-best-picture .figure div:nth-child(3) img {
+  height: 88%;
+}
+
 .oscar-best-picture .figure div:nth-child(4) {
-  right: 12.5%;
-  bottom: 0;
+  right: 20%;
   z-index: 3;
-  width: 35%;
+}
+
+.oscar-best-picture .figure div:nth-child(4) img {
+  height: 50%;
 }
 
 .oscar-best-picture .figure div:nth-child(5) {
   right: 0;
-  bottom: 0;
   z-index: 2;
-  width: 42.5%;
+}
+
+.oscar-best-picture .figure div:nth-child(5) img {
+  height: 85%;
 }
 
 .oscar-best-picture .author {
