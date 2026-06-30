@@ -62,7 +62,7 @@
 
 .oscar-best-picture .figure div:nth-child(1) {
   left: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .oscar-best-picture .figure div:nth-child(1) img {
@@ -79,7 +79,7 @@
 }
 
 .oscar-best-picture .figure div:nth-child(3) {
-  z-index: 1;
+  z-index: 2;
   margin-inline: auto;
   inset-inline: 0;
 }
@@ -99,7 +99,7 @@
 
 .oscar-best-picture .figure div:nth-child(5) {
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .oscar-best-picture .figure div:nth-child(5) img {
