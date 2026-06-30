@@ -34,17 +34,17 @@
 }
 
 .oscar-best-picture .figure::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 33.333%;
-    height: inherit;
-    background-image: url(https://shoneal.github.io/rollingstone-oscar-best-picture/images/oscar.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    top: 45%;
-    z-index: 4;
-    left: 30%;
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 33%;
+  z-index: 4;
+  display: block;
+  width: 33.333%;
+  height: inherit;
+  background-image: url(https://shoneal.github.io/rollingstone-oscar-best-picture/images/oscar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .oscar-best-picture .figure div {
