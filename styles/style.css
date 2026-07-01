@@ -49,7 +49,7 @@
   overflow: hidden;
 }
 
-.oscar-best-picture .figure::before {
+.oscar-best-picture .figure::after {
   content: "";
   position: absolute;
   top: 55%;
