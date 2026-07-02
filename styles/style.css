@@ -23,10 +23,10 @@
 
 .oscar-best-picture .featured-image {
   position: relative;
+  padding-bottom: 2.9%;
   background-image: url(https://shoneal.github.io/rollingstone-oscar-best-picture/images/oscars-background.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: fit-content;
 }
 
 .oscar-best-picture .featured-image::after {
@@ -46,7 +46,8 @@
 
 .oscar-best-picture .figure {
   position: relative;
-  height: 96%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .oscar-best-picture .figure::after {
