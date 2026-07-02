@@ -47,7 +47,6 @@
 .oscar-best-picture .figure {
   position: relative;
   height: 96%;
-  overflow: hidden;
 }
 
 .oscar-best-picture .figure::after {
