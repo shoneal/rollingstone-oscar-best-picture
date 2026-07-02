@@ -47,10 +47,9 @@
   position: relative;
   height: 96%;
   overflow: hidden;
-  border: 1px solid tomato;
 }
 
-.oscar-best-picture .figure::after {
+/* .oscar-best-picture .figure::after {
   content: "";
   position: absolute;
   top: 55%;
@@ -62,7 +61,7 @@
   background-image: url(https://shoneal.github.io/rollingstone-oscar-best-picture/images/oscar.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .oscar-best-picture .figure div {
   position: absolute;
